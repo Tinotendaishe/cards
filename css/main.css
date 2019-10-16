@@ -39,6 +39,18 @@ html {
   margin-bottom: 1rem;
 }
 
+.cards dt {
+  display: inline-inline-block;
+  width: 6rem;
+  font-style: italic;
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
